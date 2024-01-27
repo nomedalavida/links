@@ -14,7 +14,7 @@ const featuredLinks: FeaturedLink[] = [
   },
   {
     href: "https://www.notion.so/Episodios-prod-5b86812530a340d692650bc529c0afef",
-    title: "Notas episodios",
+    title: "Notas",
   },
 ];
 

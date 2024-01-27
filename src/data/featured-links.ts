@@ -5,16 +5,16 @@ export type FeaturedLink = {
 
 const featuredLinks: FeaturedLink[] = [
   {
-    href: "https://dawntraoz.com/",
-    title: "Website",
-  },
-  {
-    href: "https://gumroad.com/l/devniverse",
-    title: "Notion template",
+    href: "https://open.spotify.com/show/0RctycUmwttpDjMvKovO7r",
+    title: "Spotify",
   },
   {
     href: "https://www.youtube.com/c/nomedalavida",
-    title: "Podcast",
+    title: "YouTube",
+  },
+  {
+    href: "https://www.notion.so/Episodios-prod-5b86812530a340d692650bc529c0afef",
+    title: "Notas episodios",
   },
 ];
 

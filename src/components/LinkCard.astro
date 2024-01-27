@@ -15,7 +15,7 @@ const { result } = await openGraphScraper(options);
 
 <li class="link-card list-style-none bg-hover-effect">
 	<a href={href} target="_blank" rel="noopener noreferer">
-		{result.ogImage && <Image src={result.ogImage[0].url} alt={result.ogTitle ?? `${href} image`} width="80" height="42" format="avif" />}
+		{result.ogImage && <Image src={ (result.favicon && 'https://' + result.favicon?.replace('https://','')) || result.ogImage[0].url} alt={result.ogTitle ?? `${href} image`} width="42" height="42" format="avif" />}
 		<h2>
 			{title ?? result.ogTitle}
 		</h2>
@@ -51,5 +51,12 @@ const { result } = await openGraphScraper(options);
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+	}
+	.link-card:last-of-type > a {
+		color: #23262d;
+		background-color: white;
+	}
+	.link-card:last-of-type.bg-hover-effect:is(:hover, :focus-within) h2 {
+		color: #23262d;
 	}
 </style>

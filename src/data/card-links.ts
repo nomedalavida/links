@@ -5,25 +5,24 @@ export type CardLink = {
 
 const cardLinks: CardLink[] = [
   {
-    href: "https://gumroad.com/l/devniverse",
+    href: "https://anchor.fm/no-me-da-la-vida",
+    title: "Escúchanos en Spotify for Podcasters",
   },
   {
-    href: "https://dawntraoz.com/",
-    title: "Dawntraoz main portfolio and blog site",
+    href: "https://podimo.com/es/shows/9d8d94d8-a43b-41c8-90d6-aba3b40aec69",
+    title: "Escúchanos en Podimo",
   },
   {
-    href: "https://github.com/Dawntraoz/Dawntraoz",
-    title: "Dawntraoz GitHub repository",
+    href: "https://www.ivoox.com/podcast-no-me-da-vida_sq_f11192667_1.html",
+    title: "Escúchanos en iVoox",
   },
   {
-    href: "https://timeline.dawntraoz.com/",
+    href: "https://www.speakpipe.com/nomedalavida",
+    title: "Envíanos tus penurias por SpeakPipe",
   },
   {
-    href: "https://dev.to/dawntraoz",
-  },
-  {
-    href: "https://www.buymeacoffee.com/dawntraoz",
-    title: "Buy me a potato if you like my work",
+    href: "https://github.com/nomedalavida",
+    title: "Visita nuestra org en GitHub",
   },
 ];
 

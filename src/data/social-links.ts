@@ -14,39 +14,39 @@ export type SocialLink = {
 
 const socialLinks: SocialLink[] = [
   {
+    social: "discord",
+    href: "https://discord.gg/RQMshZSY8p",
+    text: "Únete al servidor de Discord de No me da la vida",
+    icon: "social/discord",
+  },
+  {
     social: "linkedin",
-    href: "https://linkedin.com/in/dawntraoz/",
-    text: "Alba Silvente Fuentes's LinkedIn account",
+    href: "https://www.linkedin.com/company/nomedalavidadev/",
+    text: "Página de LinkedIn de No me da la vida",
     icon: "social/linkedin",
   },
   {
     social: "twitter",
-    href: "https://twitter.com/dawntraoz",
-    text: "Follow @dawntraoz on Twitter",
+    href: "https://twitter.com/nomedalavidadev",
+    text: "Sigue a @nomedalavidadev en Twitter",
     icon: "social/twitter",
   },
   {
     social: "instagram",
-    href: "https://instagram.com/dawntraoz",
-    text: "Follow @dawntraoz on Instagram",
+    href: "https://instagram.com/nomedalavidadev",
+    text: "Sigue a @nomedalavidadev en Instagram",
     icon: "social/instagram",
   },
   {
     social: "tiktok",
-    href: "https://tiktok.com/@dawntraoz",
-    text: "Follow @dawntraoz on TikTok",
+    href: "https://tiktok.com/@nomedalavidadev",
+    text: "Sigue a @nomedalavidadev en TikTok",
     icon: "social/tiktok",
   },
   {
-    social: "twitch",
-    href: "https://twitch.tv/dawntraoz",
-    text: "Follow @dawntraoz on Twitch",
-    icon: "social/twitch",
-  },
-  {
     social: "youtube",
-    href: "https://youtube.com/@dawntraoz",
-    text: "Subscribe to @dawntraoz on YouTube",
+    href: "https://www.youtube.com/c/nomedalavida",
+    text: "Suscríbete a @nomedalavida en YouTube",
     icon: "social/youtube",
   },
 ];

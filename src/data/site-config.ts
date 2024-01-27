@@ -5,10 +5,10 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-  name: "@dawntraoz",
+  name: "@nomedalavidadev",
   description:
-    "FE dev · Speaker · Podcaster · DevRel @Storyblok · Nuxt · WTM · GDE · MVP",
-  domain: "links.dawntraoz.com",
+    "El podcast tech donde no aprenderás nada nuevo. Con Alba Silvente y Míriam González.",
+  domain: "links.nomedalavida.dev",
 };
 
 export default siteConfig;
